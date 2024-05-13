@@ -1,0 +1,76 @@
+@import '../../styles/variables/colors.scss';
+.tInput {
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+  background-color: white;
+  margin-left: 65px;
+}
+
+.ddBaseContainer {
+  position: relative;
+  width: fit-content;
+}
+
+.ddContainer {
+  display: inline-block;
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: white;
+  padding-right: 8px;
+  border-radius: 4px;
+}
+
+.dd_input_label {
+  font-size: 18px;
+}
+
+.ddOptionContainer {
+  @extend .tInput;
+  position: absolute;
+  padding: 5px 5px;
+  left: 0;
+  right: 0;
+  height: 300px;
+  overflow-y: scroll;
+  z-index: 1;
+  margin-left: 0px;
+}
+
+.ddInput {
+  border: none !important;
+  background-color: white;
+}
+
+.dd-list-item {
+  list-style: none;
+  padding: 8px 4px;
+}
+
+.dd-list-item:hover {
+  background-color: $blue-color;
+  color: white;
+}
+
+input:focus {
+  outline: none;
+}
+
+.field {
+  flex-direction: column;
+  display: flex;
+}
+
+.input-label {
+  font-size: 18px;
+}
+
+.error {
+  font-size: 0.95rem;
+  border-color: red;
+}

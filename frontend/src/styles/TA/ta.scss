@@ -1,0 +1,151 @@
+.ta {
+  background-color: rgb(255, 255, 255);
+  border-radius: 15px;
+  display: flex;
+  font-size: 1rem;
+  align-items: center;
+  appearance: none;
+  border: solid 0.1rem black;
+  align-self: center;
+}
+
+.FAQForm {
+  margin-top: 25px;
+}
+
+.task2 {
+  display: flex;
+  background-color: white;
+  padding: 15px;
+  align-items: center;
+  width: 850px;
+  margin-left: 200px;
+  font-family: CircularStd, sans-serif;
+  font-size: 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  color: rgb(7, 7, 7);
+  position: relative;
+  box-shadow: 1rem;
+  box-shadow: 1px 1px 1px gray;
+}
+
+.task3 {
+  background-image: linear-gradient(1deg, #77c3fa, #f0f7f9 99%);
+  background: rgb(227, 245, 248) !important;
+  padding: 10px;
+  width: 400px;
+  float: left;
+  height: 100px;
+  margin-left: 800px;
+  margin-right: 350px;
+}
+
+.faq {
+  display: flex;
+  background-color: rgb(231, 247, 252);
+  padding: 15px;
+  margin: 5px;
+  overflow: hidden;
+  border-radius: 8px;
+  cursor: pointer;
+  color: rgb(9, 7, 7);
+  width: 650px;
+  box-shadow: 1px 1px 1px gray;
+}
+
+.span {
+  display: inline;
+}
+
+.content {
+  width: 80%;
+  padding: 50px 10px;
+  background: rgb(247, 41, 41);
+  font-size: 15px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  cursor: pointer;
+}
+
+.wrapper {
+  position: absolute;
+  width: 0;
+  padding-left: 30px;
+  background-color: rgb(244, 191, 191);
+  font-size: medium;
+  overflow: hidden;
+  transition: width 0.5s, padding-left 0s 0.5s;
+  border: 1px dotted gray;
+  top: 0;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.wrapper:hover {
+  width: 100px;
+  padding-left: 0;
+  transition: width 0.5s, padding-left 0.5s;
+  cursor: pointer;
+}
+
+.submitButton1 {
+  margin-top: 10px;
+  margin-left: 65px;
+  cursor: pointer;
+  font-size: 15px;
+  width: 200px;
+  background: rgb(247, 41, 41);
+  border: 1px solid rgb(248, 176, 176);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 7px;
+  margin-right: 12px;
+}
+
+/* Pseudo-classes : hover used on submit input type */
+.submitButton1:hover {
+  background: rgb(204, 3, 3);
+}
+
+/* Styling for the button layout */
+.button-container1 {
+  display: flex;
+  justify-content: center;
+}
+.addFAQButton {
+  padding: 6px;
+  background-color: rgb(253, 81, 81);
+  border-width: 1px;
+  width: 200px;
+}
+
+.taInput {
+  padding: 0px;
+  font-size: 0px;
+  border-width: 3px;
+  margin-right: 60px;
+  width: 220px;
+  border-radius: 10px;
+}
+
+.submitButton3 {
+  margin-top: 10px;
+  // margin-left: 500px;
+  cursor: pointer;
+  font-size: 15px;
+  width: 200px;
+  background: rgb(247, 41, 41);
+  border: 1px solid rgb(248, 176, 176);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 7px;
+  margin-right: 12px;
+  float: right;
+}
+
+/* Pseudo-classes : hover used on submit input type */
+.submitButton3:hover {
+  background: rgb(204, 3, 3);
+}

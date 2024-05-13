@@ -1,0 +1,24 @@
+@import '../index.scss';
+
+.base-slot-container {
+  @extend .row_flex;
+  height: 85%;
+  justify-content: center;
+  padding-left: 24px;
+}
+.slot-container {
+  @extend .row_flex;
+  align-items: center;
+  height: 100%;
+  padding-bottom: 48px;
+}
+
+.btnContainer {
+  margin-right: 18px;
+  margin-top: 24px;
+}
+
+.heading {
+  margin-top: 32px;
+  font-size: 36px;
+}

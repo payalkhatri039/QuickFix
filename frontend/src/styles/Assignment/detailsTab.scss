@@ -1,0 +1,138 @@
+//Modal and assignment tab styling
+.details_main {
+  display: flex;
+  flex-direction: column;
+}
+
+.each_tab {
+  background-color: rgb(171, 232, 250);
+  margin-left: 375px;
+  margin-right: 250px;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 20px;
+  height: 60px;
+}
+
+.outerContainer_asgmt {
+  @extend .each_tab;
+  display: flex;
+  flex-direction: column;
+  background-color: aliceblue;
+}
+
+.innerContainer {
+  @extend .outerContainer_asgmt;
+  display: flex;
+  flex-direction: row;
+}
+
+.asgmtDetails {
+  text-align: center;
+  height: 5vh;
+}
+
+.faqTabs {
+  @extend .each_tab;
+  background-color: rgb(206, 237, 255);
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.faqAnswer {
+  @extend .faqTabs;
+}
+
+.bookSlot {
+  width: 120px;
+  height: 30px;
+  background: #1677ff;
+  font-size: 15px;
+  color: white;
+  align-items: center;
+  text-align: center;
+  border-radius: 5px;
+  margin-left: 280px;
+  border: none;
+  margin-top: 15px;
+  cursor: pointer;
+}
+
+.faq-div {
+  background-color: rgb(207, 246, 250);
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  overflow-y: scroll;
+  max-height: 300px;
+}
+
+.faqTitle {
+  margin-left: 250px;
+  font-size: medium;
+}
+
+.faqAssignmentTitle {
+  margin-left: 100px;
+  font-size: medium;
+  margin-bottom: 10px;
+}
+
+.div1 {
+  background-color: rgb(227, 245, 248);
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}
+
+.innerContainerAsgmtDetails {
+  display: flex;
+  flex-direction: row;
+}
+
+.innerContainerDueDate {
+  margin-left: 330px;
+}
+.innerAssignmentContainerDueDate {
+  margin-left: 100px;
+}
+
+.innerContainerTitle {
+  margin-left: 265px;
+  font-size: larger;
+}
+
+.innerAssignmentContainerTitle {
+  font-size: larger;
+  margin-left: 150px;
+}
+
+.ongoing-div {
+  width: 700px;
+  margin-left: 250px;
+  margin-top: 20px;
+}
+
+.eachFaqDiv {
+  background-color: rgb(240, 251, 252);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+.tag {
+  font-size: large;
+}
+.asgnTag {
+  font-size: medium;
+}
+
+.question {
+  padding-bottom: 5px;
+}
+
+.modal-content {
+  padding-bottom: 10px;
+}

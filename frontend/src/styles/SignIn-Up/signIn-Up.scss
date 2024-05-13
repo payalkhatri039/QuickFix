@@ -1,0 +1,172 @@
+/* Styling for the background of the page */
+.bckgDesign {
+  font-family: sans-serif;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 20px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background-color: white;
+  align-self: center;
+  flex: 1;
+}
+
+/* Styling for input text of password */
+.loginInput {
+  height: 30px;
+  width: 220px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: rgb(232, 247, 252);
+  margin-left: 65px;
+}
+
+/* Styling for the submit input button */
+.submitButton {
+  margin-top: 10px;
+  margin-left: 65px;
+  cursor: pointer;
+  font-size: 15px;
+  background: rgb(247, 41, 41);
+  border: 1px solid rgb(248, 176, 176);
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 7px;
+}
+
+/* Pseudo-classes : hover used on submit input type */
+input[type='submit']:hover {
+  background: rgb(204, 3, 3);
+}
+
+/* Styling for the button layout */
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+/*  Styling for login outermost container */
+.login-master {
+  background-color: white;
+  border-radius: 8px;
+  height: fit-content;
+  align-self: center;
+  justify-self: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  padding-top: 24px;
+}
+
+/*  Styling for error message shown to user */
+.error {
+  color: red;
+  font-size: 18px;
+  text-align: center;
+}
+
+/*  Styling for heading of page */
+.titleOfLogin {
+  margin-left: 64px;
+  margin-bottom: 20px;
+}
+
+.titleOfSignUp {
+  @extend .titleOfLogin;
+  padding-left: 275px;
+}
+
+.titleOfCreatePassword {
+  @extend .titleOfLogin;
+  margin-left: 80px;
+}
+
+/*  Styling for labels - username/password */
+.formLabels {
+  font-size: 18px;
+  left: 65px;
+}
+
+/*  Styling for containers inside forms */
+.inForm-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 10px;
+  padding: 10px;
+}
+
+.inForm-container_frgtPwd {
+  @extend .inForm-container;
+  flex-direction: row;
+  padding-left: 24px;
+}
+
+.signUp-Master {
+  @extend .login-master;
+  margin-top: -16px;
+  padding: 2.5rem 0rem;
+}
+
+.forgetPassword {
+  @extend .login-master;
+  margin-top: 30px;
+  padding: 1rem 0rem;
+}
+
+.inForm-FN_LN {
+  display: flex;
+  flex-direction: row;
+}
+
+.inForm-flex-column {
+  display: flex;
+  flex-direction: column;
+}
+
+select {
+  height: 30px;
+  width: 220px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  background-color: rgb(231, 247, 252);
+}
+
+.alreadyMemberSignup {
+  color: rgb(170, 168, 168);
+  left: 300px;
+}
+
+.forgetPwd {
+  @extend .alreadyMemberSignup;
+  left: 75px;
+  margin-right: 40px;
+}
+
+.navToSignup {
+  @extend .alreadyMemberSignup;
+  left: 10px;
+}
+
+.checkMail {
+  left: 115px;
+  font-size: large;
+}
+
+.login_base_container {
+  flex: 0.5;
+  border-radius: 16px;
+  margin-top: 96px;
+  margin-bottom: 96px;
+  margin-left: 48px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.login_form_container {
+  flex: 0.5;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+}

@@ -1,0 +1,32 @@
+.tInput {
+  border: solid 1px #ccc;
+  border-radius: 3px;
+  display: inline-block;
+  padding: 0.5rem 0.75rem;
+  font-family: inherit;
+  font-size: 1rem;
+}
+
+.field {
+  flex-direction: column;
+  display: flex;
+}
+
+.input-label {
+  font-size: 18px;
+  margin-left: 65px;
+}
+
+.error {
+  font-size: 0.95rem;
+  border-color: red;
+}
+
+input {
+  padding: 8px;
+  font-size: 15px;
+  border-width: 3px;
+  margin-right: 60px;
+  width: 220px;
+  border-radius: 10px;
+}

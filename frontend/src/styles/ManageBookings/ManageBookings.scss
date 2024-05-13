@@ -1,0 +1,37 @@
+.bookings_scroller {
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 200px;
+  height: fit-content;
+  background: rgb(227, 245, 248) !important;
+  margin-left: 100px;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.bookings_headText {
+  text-align: center;
+  padding: 100px;
+  margin-left: 75px;
+}
+
+.bookings_main {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  margin-left: 250px;
+}
+
+.outerContainer {
+  margin-top: 25px;
+  padding-left: 195px;
+  padding-right: 100px;
+}

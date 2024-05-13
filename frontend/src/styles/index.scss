@@ -1,0 +1,83 @@
+@import './variables/colors.scss';
+#root {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  display: flex;
+}
+
+.row_flex {
+  @extend .flex;
+  flex-direction: row;
+}
+
+.column_flex {
+  @extend .flex;
+  flex-direction: column;
+}
+
+.left {
+  margin-left: auto;
+}
+
+.btn {
+  padding: 0.75em 0.875em;
+  border: none;
+  width: fit-content;
+  background-color: $blue-color;
+  color: white;
+  border-radius: 0.5em;
+}
+
+.btn:hover {
+  cursor: pointer;
+}
+
+.error-text {
+  color: red;
+}
+
+.align-center {
+  align-items: center;
+}
+
+.justify-center {
+  justify-content: center;
+}
+
+.row_center {
+  justify-content: center;
+}
+
+.flex1 {
+  flex: 1;
+}
+
+.relative {
+  position: relative;
+}
+
+.page_base_container {
+  height: 90vh;
+  overflow-y: scroll;
+  display: flex;
+  background: url('../assets/desktop.jpeg');
+  background-size: 100% auto;
+  background-position: revert;
+  width: 100%;
+}
+
+.studentHub {
+  height: 210px;
+  width: 210px;
+  margin: 0;
+  z-index: 1;
+  background: url(https://publiccdn.sharepointonline.com/northeastern.sharepoint.com/sites/studenthub/ClientSideAssets/ca07be96-889c-41b8-92dc-0f68f7bd7a34/userimagebg_5d51770d7a787b9d2a5e1f79ef229926.png)
+    bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: relative;
+}

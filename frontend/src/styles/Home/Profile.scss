@@ -1,0 +1,46 @@
+.profile {
+  background-color: rgb(222, 235, 243);
+  float: left;
+  width: 500px;
+  height: 300px;
+  margin-left: 40px;
+  margin-top: 80px;
+  padding: 5px;
+  align-items: center;
+  border-radius: 15px;
+  display: flex;
+}
+
+.profilePhoto {
+  display: flex;
+  float: left;
+  margin-top: 50px;
+  width: 200px;
+  height: 200px;
+  border-radius: 15px;
+}
+
+.greeting {
+  flex: 1;
+  text-align: center;
+
+  padding-bottom: 10px;
+}
+
+.neuid-container {
+  flex: 1;
+  text-align: center;
+}
+.right-side {
+  display: flex;
+  flex-direction: column;
+  flex: 0.7;
+}
+
+.name {
+  font-weight: bold;
+}
+
+.neuid {
+  padding-top: 10px;
+}

@@ -1,0 +1,179 @@
+@import '../index.scss';
+@import '../variables/colors.scss';
+
+.book_slot_container {
+  padding: 12px 0px 0px 18px;
+  flex: 1;
+}
+
+.ta_base_container {
+  @extend .row_flex;
+  padding: 12px 8px;
+  align-items: center;
+
+  + .ta_base_container {
+    margin-top: 12px;
+  }
+}
+
+.ta_list_base_container {
+  margin-top: 48px;
+  background-color: rgb(238, 249, 254);
+  padding: 18px 12px;
+  border-radius: 12px;
+}
+
+.neo_div {
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 8px 8px 6px;
+  background-color: rgb(243, 250, 254);
+  border-radius: 8px;
+
+  :hover {
+    cursor: pointer;
+  }
+}
+
+.circle {
+  background-color: white;
+  padding: 5px 9px;
+  border-radius: 50%;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.slot_date {
+  // background-color: rgb(238, 249, 254);
+  background-color: #1677ff;
+  color: white;
+  border-radius: 50% !important;
+}
+
+.dot {
+  position: absolute;
+  bottom: 0;
+  width: 4px;
+  height: 4px;
+  margin-top: 13px;
+  border-radius: 50%;
+  background-color: gray;
+  left: 50%;
+  transform: translate(-50%, 5px);
+}
+
+.ant-picker-calendar .ant-picker-cell-disabled::before {
+  background-color: white !important;
+  background: rgb(255, 255, 255) !important;
+}
+
+.gap {
+  gap: 48px;
+}
+
+.slot_base_container {
+  max-height: 300px;
+  overflow-y: scroll;
+}
+.slot_item_container {
+  overflow-x: hidden;
+  @extend .row_flex;
+}
+.slot_base_container > .slot_item_container + .slot_item_container {
+  margin-top: 8px;
+}
+
+.slot_button {
+  padding: 13px 10px;
+  height: 52px;
+  border: 1px solid rgba(0, 105, 255, 0.5);
+  font-family: 'Nunito Sans', sans-serif;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.slot_button:hover {
+  cursor: pointer;
+}
+
+.slot_item {
+  @extend .slot_button;
+  color: $blue-color;
+  min-width: 100%;
+  background-color: white;
+  transition: all 0.5s ease;
+}
+
+.confirm_btn {
+  @extend .slot_button;
+  width: 48.5%;
+  margin-left: 3%;
+  background-color: var(--primary-color, rgb(0, 105, 255));
+  color: white;
+  box-shadow: 0 1px 6px 0 rgb(0 0 0 / 10%);
+  min-width: 0%;
+}
+
+.selected_slot {
+  transition: all 0.5s ease;
+}
+
+.slot_item.selected_slot {
+  min-width: 50%;
+}
+
+.calendar_loader {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+}
+
+.calendar_loader_background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.purple {
+  background-color: rgb(130, 71, 245);
+}
+
+.circle {
+  width: 20px;
+  height: 20px;
+  margin-right: 10px;
+  border-radius: 50%;
+}
+
+.slot_calendar_base_container {
+  flex-grow: 0;
+  flex-shrink: 0;
+  flex-basis: 300px;
+}
+
+.mb12 {
+  margin-bottom: 12px;
+}
+
+.pl100 {
+  padding-left: 100px;
+}
+
+.book_slot_flex_base_container {
+  height: 90%;
+  align-items: center;
+}
+
+.mt12 {
+  margin-top: 12px;
+}
+
+.mr12 {
+  margin-right: 12px;
+}
+
+// 43 50 54

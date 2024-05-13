@@ -1,0 +1,38 @@
+//Main course page styling
+.asgmt_scroller {
+  display: flex;
+  justify-content: center;
+  overflow: scroll;
+  flex-wrap: wrap;
+}
+
+.card {
+  width: 1000px;
+  height: fit-content;
+  background: rgb(227, 245, 248) !important;
+  margin-left: 100px;
+  margin-top: 30px;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+.asgmt_header {
+  border-radius: '50%';
+  margin: 5px;
+  color: 'black';
+  border: 'rgba(0,0,0,0.1) 1px solid';
+}
+
+.assignment_headText {
+  text-align: center;
+  padding: 45px;
+}
+
+.assignment_main {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  margin-left: 250px;
+}
